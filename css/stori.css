@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+      height: 60px; 
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* .swiper {
+      width: 100%;
+      height: 60px; 
+    } */
+
+     .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 60px; 
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 60px; 
+      margin: 20px auto;
+    }
+.mySwiper.swiper {
+      width: 100%;
+      height: 85px; 
+      margin: 20px auto;
+    }
+
+    .mySwiper.swiper .swiper-slide {
+      width: 85px!important;
+
+ height: 85px !important; 
+      border: none;
+      border-radius: 85px;
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .mySwiper.swiper .swiper-slide>img {
+      width: 85px!important;
+     height: 85px !important;
+      border-radius: 85px;
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .append-buttons button {
+      display: inline-block;
+      cursor: pointer;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
