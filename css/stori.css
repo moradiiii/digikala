@@ -44,7 +44,7 @@ div.item-block{
     }
 .mySwiper.swiper {
       width: 100%;
-      height: 130px; 
+      height: 140px; 
       margin: 20px auto;
     }
 
@@ -69,6 +69,16 @@ div.item-block{
       justify-content: center;
       align-items: center;
     }
+    .outer-circle {
+  width: 90px;
+  height: 90px;
+      border: 3px solid #7d4c9e;
+  background-color:transparent; /* رنگ بردر */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
         .mySwiper.swiper .swiper-slide .text{
          width: 85px;
        height: 35px ;
@@ -82,7 +92,7 @@ div.item-block{
       align-items: center;
 
     }
-    .mySwiper.swiper .swiper-slide>.circle>img {
+    .mySwiper.swiper .swiper-slide .circle>img {
       width: 85px!important;
      height: 85px !important;
       border-radius: 85px;
@@ -91,6 +101,7 @@ div.item-block{
       background: #444;
       display: flex;
       justify-content: center;
+      cursor: pointer;
       align-items: center;
     }
     .append-buttons {
