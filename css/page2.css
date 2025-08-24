@@ -1,0 +1,240 @@
+.radif{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.radif .eleman{
+    width: 80%;
+    height:inherit;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.radif .eleman .fixitem{
+    width: 7%;
+    height: inherit;
+    display: block;
+    background-color: #FFFFFF;
+    /* align-items: center; */
+}
+
+.radif .eleman .fixitem .icon{
+    /* background-color: #424242; */
+    width: 100%;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.radif .eleman .fixitem .text{
+    width: 100%;
+    height: 70px;
+    color: black;
+    line-height: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ردیف دوم  */
+.radif2{
+    background-color: #FFFFFF;
+    width:100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15PX;
+}
+
+.radif2 .slide4{
+    width: 85%;
+    height: inherit;
+    background-color: #ee384e;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  .border1{
+    width: 95%;
+   height: 300px;
+   background-color: #12d2cf;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+.border1 .swiper{
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+    .mySwiper3 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 170px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 85%;
+      height: 250px;
+      object-fit: cover;
+    }
+  
+    .radif3{
+        width: 50%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        color: black;
+        font-size: x-large;
+        margin-right: 25%;
+        margin-top: 25px;
+    }
+     
+    /* دسته بندی کالا ها  */
+
+    .cat2{
+    width: 85%;
+    height: 400px;
+    background-color: #ee384e;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    }
+
+    .cat{
+      width: 100%;
+    height: 400px;
+    background-color: #32d13d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+    .cat2 .mySwiper4 {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cat2 .mySwiper4 .swiper-slide {
+      /* text-align: center; */
+      font-size: 18px;
+      background: #333;
+      height: calc((70% - 30px) / 2) !important;
+      /* Center slide text vertically */
+      display: block;
+      /* justify-content: center;
+      align-items: center; */
+    }
+    
+    .cat2  .pic{
+      width: 90%;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: #a7b2a8;
+    }
+
+    /* .cat2 .text2{
+    width: 100%;
+    height: 85px;
+    background-color: #12d2cf;
+    }
+     
+    .cat2  .pic img{
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      height: 80px;
+    } */
+
+  /* بنر */
+  .baner{
+    width: 100%;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+  }
+
+  .baner .baner2 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 300px;
+    background-color: #FFFFFF;
+    gap: 20px;
+  }
+
+  .baner .baner2 .pic2{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  } 
+
+  .baner .baner2 .pic2 img{
+    display: flex;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  /* محبوب ترین ها  */
+
+  .baner3 {
+    width: 100%;
+    height: 250px;
+    background-color: #12d2cf;
+    display: flex;
+    justify-content: center;
+  }
+
+  .baner3 .mahbob{
+    width: 90%;
+    height: inherit;
+    background-color: #32d13d;
+  }
+
+  .baner3 .mahbob .matn{
+    width: 100%;
+    height: 80px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: xx-large;
+    align-items: end;
+  }
+

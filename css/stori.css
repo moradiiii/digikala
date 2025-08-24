@@ -40,7 +40,7 @@ div.item-block{
     .swiper {
       width: 100%;
       height: 65px; 
-      margin: 20px auto;
+      /* margin: 20px auto; */
     }
 .mySwiper.swiper {
       width: 100%;
@@ -123,9 +123,9 @@ div.item-block{
     
     /* لاین دوم صفحه اول  */
     .swiper {
-      margin-bottom: 10%;
+      /* margin-bottom: 5%; */
       width: 100%;
-      height: 500px;
+      height: 400px;
     }
 
     .swiper-slide {
@@ -142,4 +142,5 @@ div.item-block{
       width: 100%;
       height: 100%;
       object-fit: cover;
+      cursor: pointer;
     }
