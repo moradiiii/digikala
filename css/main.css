@@ -19,6 +19,8 @@
       padding: 0;
       margin: 0%;
       cursor: pointer;
+      position: fixed;
+      z-index: 2000;
        }
 
     .swiper-slide {
@@ -35,7 +37,6 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      position: fixed;
     }
 
     .autoplay-progress {
@@ -114,6 +115,7 @@
     position: fixed;
     background-color: #fefefe;
     z-index: 1000;
+    top: 60px;
 }
 
 .inputsearch{
@@ -212,7 +214,7 @@ background-color: #d9e2dd;
 } */
 .line2{
 display: flex;
-padding-top: 3%;
+padding-top: 7%;
 /* position: sticky; */
 
 }
